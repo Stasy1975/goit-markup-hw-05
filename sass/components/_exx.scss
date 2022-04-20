@@ -1,0 +1,16 @@
+/* Примеры */
+.exx {
+    padding-bottom: 94px;
+    &__list {
+    display: flex;
+    flex-direction: row;
+}
+
+&__item {
+    margin-right: 30px;
+    &:last-child {
+    margin-right: 0;
+}
+}
+}
+
