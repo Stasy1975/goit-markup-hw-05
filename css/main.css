@@ -75,17 +75,17 @@ img {
 /* Header */
 .header {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 
 .header__main {
-  padding: 24px 0 25px;
   border-bottom: 1px solid var(--border);
 }
 
 .nav {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
 }
 
 .logo {
@@ -119,6 +119,9 @@ img {
 }
 
 .pages__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -142,6 +145,8 @@ img {
 .contact__link {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -153,7 +158,7 @@ img {
 }
 
 .contact__item {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .contact__item:first-child {
@@ -222,6 +227,30 @@ img {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.backgrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.backgrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 528px;
+  min-height: 581px;
+  background-color: #fff;
 }
 
 /* Преимущества*/
