@@ -263,7 +263,7 @@ img {
 
 .backgrop.is-hidden .modal {
   opacity: 0;
-  transform: translate(-50%, -50%) rotate(180deg);
+  transform: translate(-50%, -50%);
 }
 
 .modal {
