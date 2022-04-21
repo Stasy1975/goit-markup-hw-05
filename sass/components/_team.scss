@@ -48,6 +48,11 @@
     }
 
   }
+  &__icon {
+    fill: $icon;
+    transition: fill 250ms $way;
+
+}
 &__link {
     
     display: flex;
@@ -67,14 +72,10 @@
         &:focus .team__icon {
             fill: #ffffff;
         }
-    //  margin-right: 10px;
+
      
      }
 
 
-&__icon {
-    fill: $icon;
-    transition: fill 250ms $way;
 
-}
 }

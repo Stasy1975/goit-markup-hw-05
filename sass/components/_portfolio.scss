@@ -57,13 +57,10 @@
     color: var(--second-color);
 }
 &__shadow{
-  
-position: relative;
+  position: relative;
 overflow: hidden;
-    width: 100%;
-    height: 294px;
-    background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
+    
+   
 }
 &__idea{
     position: absolute;
@@ -79,7 +76,10 @@ line-height: 1.56;
 letter-spacing: 0.03em;
 color: var(--white-color);
 padding: 63px 24px;
- 
+background-color: rgba(33, 150, 243, 0.9);
+opacity: 0;
+transform: translateY(100%);
+transition: transform 250ms $way, opacity 250ms $way;
 }
 &__link:hover .portfolio__idea,
 &__link:focus .portfolio__idea {
