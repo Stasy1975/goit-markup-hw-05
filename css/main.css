@@ -295,6 +295,36 @@ img {
   background-color: var(--white-color);
 }
 
+.form {
+  width: 100%;
+  padding: 40px;
+}
+
+.form__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.form__form {
+  outline: 1px solid #000;
+  margin-bottom: 10px;
+}
+
+.form__input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form__text {
+  position: absolute;
+  top: 0 px;
+  left: 0;
+}
+
 /* Преимущества*/
 .excellence {
   padding-top: 94px;

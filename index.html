@@ -61,15 +61,48 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
+          <!-- Модальне вікно -->
           <button class="hero__btn" type="button" data-modal-open>Заказать услугу</button>
           <div class="backgrop is-hidden" data-modal>
             <div class="modal">
             <button class="btn__close" type="button" data-modal-close>
                 <svg  height="18px" width="18px">
-                  <use href="./img/symbol-defs.svg#icon-close-black"</use>
-                </svg>
-            </button></div>
+                  <use href="./img/symbol-defs.svg#icon-close-black"></use></svg>
+            </button>          
+            <!-- Форма модального вікна -->
+<form class="form">          
+<h3 class="form__title">Оставьте свои данные, мы вам перезвоним</h3>
+
+  <div class="form__form">
+<label class="form__point">
+<input type="text" name="name" class="form__input"><span class="form__text">Имя</span>
+<svg class="form__icon" height="18px" width="18px">
+                  <use href="./img/symbol-defs.svg#icon-person"></use></svg>
+</label>
+</div>
+<div class="form__form">
+<label>
+<input type="tel" name="telefon" class="form__input"><span>Телефон</span>
+<svg  height="18px" width="18px">
+                  <use href="./img/symbol-defs.svg#icon-phone"></use></svg>
+</label></div>
+<div class="form__form">
+<label>
+<input type="email" name="email" class="form__input"><span>Почта</span>
+<svg  height="18px" width="18px">
+                  <use href="./img/symbol-defs.svg#icon-email"></use></svg>
+</label>
+<div class="form__form">
+<label>
+<input type="text" name="comment" class="form__input" placeholder="Введите текст"><span>Комментарий</span>
+</label></div>
+</form>
+
+
+
           </div>
+          </div>
+
         </div>
       </section>
       <!-- Наши преимущества -->
