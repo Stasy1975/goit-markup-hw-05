@@ -73,29 +73,45 @@
 <form class="form">          
 <h3 class="form__title">Оставьте свои данные, мы вам перезвоним</h3>
 
-  <div class="form__form">
-<label class="form__point">
-<input type="text" name="name" class="form__input"><span class="form__text">Имя</span>
+<label class="form__field">
+<div class="form__text">Имя</div>  
+<input type="text" name="name" class="form__input">
 <svg class="form__icon" height="18px" width="18px">
                   <use href="./img/symbol-defs.svg#icon-person"></use></svg>
 </label>
-</div>
-<div class="form__form">
-<label>
-<input type="tel" name="telefon" class="form__input"><span>Телефон</span>
-<svg  height="18px" width="18px">
+
+<label class="form__field">
+<div class="form__text">Телефон</div>  
+<input type="tel" name="tel" class="form__input">
+<svg class="form__icon" height="18px" width="18px">
                   <use href="./img/symbol-defs.svg#icon-phone"></use></svg>
-</label></div>
-<div class="form__form">
-<label>
-<input type="email" name="email" class="form__input"><span>Почта</span>
-<svg  height="18px" width="18px">
+</label>
+
+<label class="form__field">
+<div class="form__text">Почта</div>  
+<input type="email" name="email" class="form__input">
+<svg class="form__icon" height="18px" width="18px">
                   <use href="./img/symbol-defs.svg#icon-email"></use></svg>
 </label>
-<div class="form__form">
-<label>
-<input type="text" name="comment" class="form__input" placeholder="Введите текст"><span>Комментарий</span>
-</label></div>
+
+<label class="form__comment">
+  <div class="form__text">Комментарий</div>
+<textarea name="story"
+          rows="5" class="form__area" placeholder="Введите текст">
+</textarea>
+  </label>
+
+<label class="license">
+  <input type="checkbox" name="license" class="license__point">
+  <svg class="license__icon" height="18px" width="18px">
+                  <use href="./img/symbol-defs.svg#icon-icon-check"></use></svg>
+  <p class="license__text">
+    Соглашаюсь с рассылкой и принимаю
+    <a class="license__link" href="">Условия договора</a>
+  </p>
+</label>
+
+
 </form>
 
 
@@ -116,7 +132,7 @@
                   <use href="./img/symbol-defs.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h3 class="excellence__point">Внимание к деталям</h3>
+              <h3 class="excellence__label">Внимание к деталям</h3>
               <p class="excellence__txt">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
@@ -127,7 +143,7 @@
                   <use href="./img/symbol-defs.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h3 class="excellence__point">Пунктуальность</h3>
+              <h3 class="excellence__label">Пунктуальность</h3>
               <p class="excellence__txt">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
@@ -138,7 +154,7 @@
                   <use href="./img/symbol-defs.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h3 class="excellence__point">Планирование</h3>
+              <h3 class="excellence__label">Планирование</h3>
               <p class="excellence__txt">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
@@ -149,7 +165,7 @@
                   <use href="./img/symbol-defs.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h3 class="excellence__point">Современные технологии</h3>
+              <h3 class="excellence__label">Современные технологии</h3>
               <p class="excellence__txt">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
