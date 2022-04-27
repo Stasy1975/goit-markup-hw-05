@@ -111,9 +111,15 @@ color: var(--second-color);
   &:checked + .license__point{
    background-color: var(--hover-color);
    border: none;
-   background-image: url(.../img/SVG/icon_check.svg);
-}  
+   background-image: url(../img/SVG/icon_check.svg);
+   background-repeat: no-repeat;
+   background-position: center;
 }
+&:focus+.license__point {
+    
+    border-color: var(--hover-color);
+    
+}}
 
 &__point{
     width: 16px;
@@ -151,10 +157,5 @@ color: var(--second-color);
     &:focus {
         background-color: #188ce8;
             }
-}
-}
     
-
-
-
-
+}}

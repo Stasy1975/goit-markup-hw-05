@@ -295,6 +295,10 @@ img {
   background-color: var(--white-color);
 }
 
+.btn__close:focus, .btn__close:hover {
+  fill: var(--hover-color);
+}
+
 .form {
   width: 100%;
   padding: 40px;
@@ -407,7 +411,13 @@ img {
 .license__checkbox:checked + .license__point {
   background-color: var(--hover-color);
   border: none;
-  background-image: url(.../img/SVG/icon_check.svg);
+  background-image: url(../img/SVG/icon_check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.license__checkbox:focus + .license__point {
+  border-color: var(--hover-color);
 }
 
 .license__point {
