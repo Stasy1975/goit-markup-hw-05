@@ -51,6 +51,7 @@ transition: transform 250ms $way, opacity 250ms $way;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: var(--white-color);
+  transition: fill 250ms $way;
 &:focus,
 &:hover{
   fill: var(--hover-color);
